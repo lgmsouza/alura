@@ -7,7 +7,7 @@ Exemplos de uso de programação orientada à objetos, Ciência de Dados, Machin
 1. [Criação de jogos de terminal utilizando Python](https://github.com/lgmsouza/alura/tree/master/projetos-python/jogos): 
 Introdução à linguagem com criação de jogos simples utilizando conceitos de lógica de programação, loops, condições e leitura de arquivos externos.
 
-2. [Script para criação de Conta Bancária utilizando programação orientada à obejetos](https://github.com/lgmsouza/alura/tree/master/projetos-python/oop/conta_bancaria): 
+2. [Script para criação de Conta Bancária utilizando programação orientada à objetos](https://github.com/lgmsouza/alura/tree/master/projetos-python/oop/conta_bancaria): 
 Introdução à OOP e apresentação à conceitos básicos como staticmethods, decorators e boas práticas de programação orientada à objetos.
 
 3. [Criação de Playlist de filmes e séries utilizando programação orientada à objetos](https://github.com/lgmsouza/alura/tree/master/projetos-python/oop/playlist): 
