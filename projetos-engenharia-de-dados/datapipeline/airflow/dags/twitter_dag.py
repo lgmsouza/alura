@@ -11,7 +11,10 @@ ARGS = {
     "depends_on_past": False,
     "start_date": days_ago(6)
 }
-BASE_FOLDER = "/mnt/c/Users/Lucas/Documents/Projetos/Airflow/datapipeline/datalake/{stage}/twitter_aluraonline/{partition}"
+BASE_FOLDER = join(
+    str(Path("~Documents").expanduser()),
+    "alura/datapipeline/datalake/{stage}/twitter_aluraonline/{partition}"
+)
 PARTITION_FOLDER = "extract_date={{ ds }}"
 TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S.00Z"
 
@@ -42,7 +45,10 @@ with DAG(
 
     twitter_transform = SparkSubmitOperator(
         task_id="transform_twitter_aluraonline",
-        application = "/mnt/c/Users/Lucas/Documents/Projetos/Airflow/datapipeline/spark/transformation.py",
+        application = join(
+            str(Path(__file__).parents[2]),
+            "spark/transformation.py"
+        ),
         name="twitter_transformation",
         application_args=[
             "--src",
