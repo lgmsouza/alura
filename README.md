@@ -1,7 +1,7 @@
 # Alura
-Projetos realizados durante os cursos de Python e Data Science na Alura.
+Projetos realizados durante os cursos de Python, Data Science e Engenharia de Dados na Alura.
 
-Exemplos de uso de programação orientada à objetos, Ciência de Dados, Machine Learning e Regressão Linear.
+Exemplos de uso de programação orientada à objetos, Ciência de Dados, Machine Learning e Engenharia de Dados.
 ---
 
 1. [Criação de jogos de terminal utilizando Python](https://github.com/lgmsouza/alura/tree/master/projetos-python/jogos): 
@@ -17,5 +17,8 @@ Exemplos de uso de programação orientada à objetos, Ciência de Dados, Machin
     Exercício final do curso de Regressão Linear onde foram realizados uma análise de dados de preços de imóveis, Data Visualization utilizando as bibliotecas Seaborn e Matplotlib, e um modelo de Regressão Linear utilizando a biblioteca Scikit-learn.
 
 5. [Projeto realizado no curso de Scraping com Python](https://github.com/lgmsouza/alura/blob/master/projetos-data-science/web-scraping/WebScraping.ipynb):
-    Projeto do curso de Scraping com Python utilizando a biblioteca BeautifulSoup. 
+    Projeto do curso de Scraping com Python utilizando a biblioteca BeautifulSoup.
+    
+6. [Projeto realizado no curso de Introdução a Data Pipelines](https://github.com/lgmsouza/alura/tree/master/projetos-engenharia-de-dados):
+    Projeto de um processo ELT, com extração de dados da API do Twitter, carregamento de dados em um Datalake local e transformação de dados para um formato mais adequado para utilização. Foram utilizados o Apache Airflow e Spark para realização desse projeto.
 
